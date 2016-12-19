@@ -15,8 +15,6 @@ public class Global {
     // provides roboter controlling
     public static Motor_Controller motorController = new Motor_Controller();
 
-    // Controller gui buttons
-    public static Button r_up;
 
 
 }

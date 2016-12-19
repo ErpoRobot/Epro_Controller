@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
     abi="armeabi-v7a,armeabi"
-    api-level="23"
-    density="xxhdpi"
+    api-level="16"
+    density="hdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="65940563054444"
-    token="-3544548037852404250"
+    timestamp="6585154109630"
+    token="-2621508256936427117"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="84" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="4" />
     <task
         name="verifier"
-        duration="0" />
+        duration="1" />
 
     <artifact
-        location="C:\Roboter_Controller-master\app\build\outputs\apk\app-debug.apk"
+        location="/home/donborito/AndroidStudioProjects/Epro_Controller/app/build/outputs/apk/app-debug.apk"
         type="MAIN" />
 
     <build
-        timestamp="65940563054444"
+        timestamp="6585154109630"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Roboter_Controller-master\app\build\outputs\apk\app-debug.apk"
+            location="/home/donborito/AndroidStudioProjects/Epro_Controller/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
 

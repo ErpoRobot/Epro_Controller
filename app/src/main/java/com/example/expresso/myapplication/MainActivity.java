@@ -57,11 +57,11 @@ public class MainActivity extends Activity {
                 Global.connector.BT_OutStream = Global.connector.BT_Socket.getOutputStream();
                 Global.connector.BT_InStream = Global.connector.BT_Socket.getInputStream();
 
-                Global.connector.setStatus("connected to " + Global.connector.BT_Device.getName() + " (" + Global.connector.BT_Device.getAddress() + " )");
+                Global.connector.setStatus("Verbunden mit " + Global.connector.BT_Device.getName() + " (" + Global.connector.BT_Device.getAddress() + " )");
                 // run aufrufen
 
             } catch (IOException e) {
-                Global.connector.setStatus("not connected");
+                Global.connector.setStatus("Nicht verbunden");
             }
 
         }
