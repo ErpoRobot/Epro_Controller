@@ -50,6 +50,7 @@ public class Motor_Controller {
         }
         // create command byte
         command = new byte[]{0x0C, 0x00, 0x00, 0x04, motor, motorSpeed, 0x05, motorRegulationMode, motorSpeed, motorRunState, 0x00, 0x00, 0x00, 0x00};
+
         // send command to robot
         Global.connector.send(command);
 

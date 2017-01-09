@@ -1,4 +1,7 @@
-#Mon Dec 19 19:18:17 CET 2016
-base.0=/home/donborito/AndroidStudioProjects/Epro_Controller/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+#Mon Jan 09 16:23:34 CET 2017
+base.0=/home/donborito/AndroidStudioProjects/Epro_Controller/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_57f37cc9e595f68c9bdd56073bef46bf44bb131e
+renamed.1=classes2.dex
 renamed.0=classes.dex
-file.0=/home/donborito/AndroidStudioProjects/Epro_Controller/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
+file.1=/home/donborito/AndroidStudioProjects/Epro_Controller/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_242528db99f618d03fe499ac2c979c645433184a/classes.dex
+base.1=/home/donborito/AndroidStudioProjects/Epro_Controller/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_242528db99f618d03fe499ac2c979c645433184a
+file.0=/home/donborito/AndroidStudioProjects/Epro_Controller/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_57f37cc9e595f68c9bdd56073bef46bf44bb131e/classes.dex

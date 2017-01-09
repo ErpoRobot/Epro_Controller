@@ -24,9 +24,9 @@ public class Connector {
 
     private static final int REQUEST_ENABLE_BT = 1;
     public Set<BluetoothDevice> BT_PairedDevices;
-    public BluetoothDevice BT_Device;
+    public BluetoothDevice BT_Device = null;
     public BluetoothSocket BT_Socket;
-    public OutputStream BT_OutStream;
+    public OutputStream BT_OutStream = null;
     public InputStream BT_InStream;
     BluetoothAdapter BT_Adapter = BluetoothAdapter.getDefaultAdapter();
 
@@ -62,13 +62,18 @@ public class Connector {
 
     //---------------------------------------------------------------
     public void send(byte[] buffer) {
-        setStatus("send to " + BT_Device.getName());
+        if(this.BT_Device != null){
+            setStatus("send to " + BT_Device.getName());
+
+        }
 
         // for example {0x06, 0x00 ,0x00 ,0x03 ,0x0B, 0x02 ,0x05, 0x01}
         //byte[] buffer = new byte[]{0x0C,0x00,0x00,0x04,0x00,0x32,0x05,0x01,0x32,0x20,0x00,0x00,0x00,0x00};
 
         try {
-            BT_OutStream.write(buffer);
+            if(BT_OutStream != null){
+                BT_OutStream.write(buffer);
+            }
         } catch (IOException e) {
             setStatus("Error ");
         }
